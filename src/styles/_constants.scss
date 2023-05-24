@@ -1,0 +1,27 @@
+@use 'sass:color';
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+// #Screen Sizes
+$mobile: 1000px;
+$desktop: 1440px;
+
+ // Primar
+
+$orange: hsl(25, 97%, 53%);
+
+// Neutral
+$white : hsl(0, 0%, 100%);
+$lightGray: hsl(217, 12%, 63%);
+$mediumGray: hsl(216, 12%, 54%);
+$darkBlue: hsl(213, 19%, 18%);
+$veryDarkBlue: hsl(216, 12%, 8%);
+
+// Custom
+$lighterDarkBlue: lighten($darkBlue, 5%);
+
+// #Typography
+// Font Sizes
+$bodyFz: 15px;
+
+// Font Family
+$overpass: "Overpass", Arial, sans-serif;
